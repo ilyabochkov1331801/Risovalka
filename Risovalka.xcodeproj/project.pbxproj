@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA01025624803625008F1B49 /* ImageManagedObjectAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA01025524803625008F1B49 /* ImageManagedObjectAdapter.swift */; };
+		EA01025824803D0B008F1B49 /* ImageManagedObjectAdapterStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA01025724803D0B008F1B49 /* ImageManagedObjectAdapterStorage.swift */; };
 		EAD735B224694B480097627C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD735B124694B480097627C /* AppDelegate.swift */; };
 		EAD735B424694B480097627C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD735B324694B480097627C /* SceneDelegate.swift */; };
 		EAD735B924694B480097627C /* ImagesCollectionViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD735B724694B480097627C /* ImagesCollectionViewController.storyboard */; };
@@ -25,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA01025524803625008F1B49 /* ImageManagedObjectAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManagedObjectAdapter.swift; sourceTree = "<group>"; };
+		EA01025724803D0B008F1B49 /* ImageManagedObjectAdapterStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManagedObjectAdapterStorage.swift; sourceTree = "<group>"; };
 		EA6AE0D8247E76B600DD2F87 /* ru-BY */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ru-BY"; path = "ru-BY.lproj/ImagesCollectionViewController.strings"; sourceTree = "<group>"; };
 		EA6AE0D9247E76B600DD2F87 /* ru-BY */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ru-BY"; path = "ru-BY.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		EAD735AE24694B480097627C /* Risovalka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Risovalka.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +61,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA010254248035F7008F1B49 /* NewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EA01025524803625008F1B49 /* ImageManagedObjectAdapter.swift */,
+				EA01025724803D0B008F1B49 /* ImageManagedObjectAdapterStorage.swift */,
+			);
+			path = NewModel;
+			sourceTree = "<group>";
+		};
 		EAD735A524694B480097627C = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +89,7 @@
 		EAD735B024694B480097627C /* Risovalka */ = {
 			isa = PBXGroup;
 			children = (
+				EA010254248035F7008F1B49 /* NewModel */,
 				EAFDC0A7246C96FC0047D06F /* Controllers */,
 				EAFDC0A6246C96EF0047D06F /* Model */,
 				EAFDC0A8246C97080047D06F /* View */,
@@ -196,7 +210,9 @@
 			files = (
 				EAD735C924694DFB0097627C /* ImagesCollectionViewController.swift in Sources */,
 				EAD735B224694B480097627C /* AppDelegate.swift in Sources */,
+				EA01025824803D0B008F1B49 /* ImageManagedObjectAdapterStorage.swift in Sources */,
 				EAD735D4246985460097627C /* EditImageUIViewController.swift in Sources */,
+				EA01025624803625008F1B49 /* ImageManagedObjectAdapter.swift in Sources */,
 				EAFDC0AE246C9DD00047D06F /* BrushSettings.swift in Sources */,
 				EAFDC0B0246C9FD00047D06F /* DotView.swift in Sources */,
 				EAFDC0AB246C9CE50047D06F /* SettingViewController.swift in Sources */,
